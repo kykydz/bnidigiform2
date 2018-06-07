@@ -1,0 +1,222 @@
+.bg-navbarku {
+    background-color: #fffdf4;
+}
+
+.bg-navbar {
+    background-color: #fff6ce;
+}
+
+div.polaroid {
+  width: 100%;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
+  /*text-align: center;*/
+}
+
+div.container {
+  padding: 10px;
+}
+
+.sliderku {
+    column-width: 100%;
+    background-color: #E55300;
+}
+
+/*Vertikal menu*/
+.vertical-menu {
+    width: 100%;
+}
+
+.vertical-menu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc;
+}
+
+.vertical-menu a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+.mt {
+    margin-bottom: 2em;
+    margin-top: 1em;
+}
+
+/*News section*/
+ .newsku {
+    background-color: #fcf9f2;
+    padding-left: 1.2em;
+    padding-right: 1.2em;
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
+}
+
+/*untuk galery */
+
+div.polaroidimg {
+/*    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;*/
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    background-color: white;
+}
+
+div.polaroidtab {
+    padding-top: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.galery {
+    width: 100%;
+    height: auto;
+}
+
+.cc {
+    text-align: center;
+    font-size: 11px;
+}
+
+/*Tab pilihan Form */
+
+
+/* Style the tab */
+.tab {
+    float: left;
+    border: none;
+    background-color: #2d95b5;
+    width: 30%;
+    height: 240px;
+    color: white;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+    color: white;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+    background-color: #006685;
+}
+
+/* Style the tab content */
+.tabcontent {
+    /*float: center;*/
+    padding: 0px 12px;
+    border: none;
+    border-radius: 5px;
+    
+    border-left: none;
+    height: auto;
+    background-color: #006685;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 5px;
+    color: white;
+}
+
+div.polaroidhasil {
+  width: 100%;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
+  /*text-align: center;*/
+  padding: 1em;
+
+}
+
+.boxhasil {
+    display: flex;
+    height: 120px;
+    width: 100%;
+    align-items: center;
+    vertical-align: middle;
+    padding-top: 2em;
+}
+
+.btn-aku {
+    float: right;
+}
+.btn-custom {
+  color: #ffffff;
+  background-color: #BD1B77;
+  border-color: #E51DF0;
+}
+
+.formku {
+    border-radius: 5px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.panelku {
+    margin-top: 1%;
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-bottom: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 3%;
+    padding-left: 3%;
+}
+
+label {
+    font-weight: bold;
+}
+
+.mt-top {
+    margin-top: 5%;
+}
+
+.imgzoom {
+    padding: 50px;
+    background-color: white;
+    transition: transform .4s;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+
+}
+
+.imgzoom:hover {    
+    /*border-width: 1px;
+    border-style: solid;
+    border-color: #d7dde5;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 10px 0 rgba(0, 0, 0, 0.19);*/
+
+     -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.1); 
+}
+
+.space {
+/*    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+    margin-left: 0.4em;
+    margin-right: 0.4em;*/
+    padding-bottom: 0.3em;
+    padding-top: 0.3em;
+    padding-right: 0.3em;
+    padding-left: 0.3em;
+}

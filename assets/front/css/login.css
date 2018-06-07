@@ -1,0 +1,98 @@
+.side {
+	padding: 3%;
+	color: white;
+	font-family: 'Assistant';font-size: 22px;
+	background: linear-gradient(to right, #052a35, #003A4B);
+	box-shadow: 0 12px 14px 0 rgba(0, 0, 0, 0.2), 0 16px 20px 0 rgba(0, 0, 0, 0.19);
+	opacity: 0.95;
+}
+
+.sideLogo {
+	padding-bottom: 20%;
+}
+
+.sideTittle {
+	padding-bottom: 2%;
+}
+
+.sideContent {
+	padding-bottom: 10%;
+	color: #0a576d;
+}
+
+.formSide {
+	background-color: #602e7a;
+	padding: 0px;
+	color: white;
+	font-family: 'Assistant'; font-size: 20px;
+	box-shadow: 0 12px 14px 0 rgba(0, 0, 0, 0.2), 0 16px 20px 0 rgba(0, 0, 0, 0.19);
+	opacity: 0.9;
+}
+
+.inputan {
+	background-color: transparent;
+	border-right: none;
+	border-left: none;
+	border-top: none;
+	border-bottom: solid;
+	border-color: white;
+	border-width: 1px;
+	margin-bottom: 5%;
+	color: white;
+	width: 100%;
+	transition: 0.2s;
+
+}
+.inputan:focus {
+	transform: scale(1.02);
+	outline: none;
+	border-width: 2px;
+}
+
+::placeholder {
+    color: white;
+    opacity: 0.5; /* Firefox */
+}
+
+.signup {
+	background-color: #793f9b;
+	padding: 5% 7%;
+}
+
+.login {
+	padding: 5% 3%;
+	background-color: #602e7a;
+	height: 100%;
+}
+
+.buttonku {
+	border: solid;
+	border-width: 2px;
+	border-color: orange;
+	color: orange;
+	border-radius: 20px;
+	width: 8em;
+	background-color: transparent;
+	transition: 0.4s;
+}
+
+.buttonku:hover {
+	background-color: orange;
+	color: white;
+}
+
+.butlogin {
+	border: solid;
+	border-width: 2px;
+	border-color: #42d68e;
+	color: #42d68e;
+	border-radius: 20px;
+	width: 8em;
+	background-color: transparent;
+	transition: 0.4s;
+}
+
+.butlogin:hover {
+	background-color: #42d68e;
+	color: white;
+}
